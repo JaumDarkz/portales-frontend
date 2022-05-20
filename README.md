@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+<p align="center">
+  <img width=30% src="https://user-images.githubusercontent.com/78161484/168403279-b2b4dc15-1ef0-44ba-a90f-4abce9e0e156.png" alt="Portales Logo"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Portales by MetaMath 
 
-## Available Scripts
+Portales is a Cross-Bridge solution for fast wrapping assets. Portales long-term goal is to make off-chain event listeners (Oyentes) decentralized by incetivizing node maintainers with PORT tokens. 
 
-In the project directory, you can run:
+### Team Guidelines for Development
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1) Head to [ [Kickstart] Portales debut on Moonriver Grant Hackathon](https://github.com/metamathstudios/portales-by-metamath/issues/1);
+2) Read the Kickstart document;
+3) Head to the Task list;
+4) Find a task you want to work on (Tasks on the top of each list are priority);
+5) Head to Projects > Portales debut on Moonriver Grant Hackathon;
+6) Find the task you want to claim on the list;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/78161484/167942630-c97c6dd2-2fae-43b6-848c-ff11eeb0e960.png)
 
-### `yarn test`
+7) Mark yourself as assignee, change status from `✨ Todo` to `🚀 In Progress` and enter the date you started;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/78161484/167943015-0a145a3d-8960-43b3-813a-bd7b5ea10801.png)
 
-### `yarn build`
+8) When the task is done, change status from `🚀 In Progress` to `✅ Done`, and complete the `Finished At` column with the completion date;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/78161484/167943459-54a241d2-cf01-4ad3-a532-6f9cb7578c1d.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Observations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- All contribution must be submitted in the form of Pull Requests.
+- If a known bug is being submitted on a Pull Request, acknowledge it on the PR submission.
+- Wait for at least two revisions before merging.
+- Fork this Repo and work on your local branch, only open a PR when a feature is fully implemented.
+- Use [git-commit-msg-linter](https://www.npmjs.com/package/git-commit-msg-linter) to enforce Git Message Guidelines.
+- Use [standard](https://www.npmjs.com/package/standard) to enforce JavaScript Standard Style.
 
-### `yarn eject`
+_Standard usage:_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```csh
+standard ./folder/targer-javascript-file.js --fix
+```
